@@ -205,7 +205,7 @@ void loop() {
 
 # Results
 
-In the end...it sort of can dance and listen to user input! This was my first ever attempt at using servo motors and the Adafruit driver to attempt at making a bipedal walking robot, but so far it's been a very successful learning experience. There are definitely still many bugs (ahem features) that I'd like to address as well as a few more sensors that I'd like to add but so far it's been a very rewarding experience. I love robotics and putting together large complicated projects so let's see what the future of Otto brings.
+In the end...it sort of can dance and listen to user input! This was my first ever attempt at using servo motors and the Adafruit driver to attempt at making a bipedal walking robot, but so far it's been a very successful learning adventure. There are definitely still many bugs (ahem features) that I'd like to address as well as a few more sensors that I'd like to add. I also think that it'd be great to try and create a custom PCB board for handling additional analog sensors due to overcrowing of jumper cables around the microcontroller's ports. Ideally, something sort of like a microcontroller shield that fits over the board but also integrates the servo driver seamlessely would be fantastic. All in all, it's been a great project. I love robotics and putting together large complicated projects so let's see what the future of Otto brings.
 
 ![Image of dancing Otto](https://github.com/XiaoBaoBao719/IEEE-Project-2021/blob/main/Pictures/VID_20210528_015705891_2.gif)
 
