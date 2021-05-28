@@ -30,12 +30,22 @@ The Arduino Uno is an ATmega32P open-source microcontroller that has 14 digital 
 
 Next we have the Adafruit 16-Channel PWM Servo Driver. This component is probably the next most crucial element in the entire robot since without it, the servo motors would not be able to move properly. See, Servo motors are essentially small DC motors with a small integrated encoder built into the entire assembly. In other words, the complex circutry that has to keep track of the DC motor's position, velocity, and voltage is all built into the servo motor. All we need to provide to the servo motor is a signal. This signal is called the *Pulse Width Modulation* signal; and is a square wave. The width of the square wave is known as the *duty cycle* and by varying the duty cycle, we can change the PWM signal as well. 
 
+![Image of PWM](https://i.pinimg.com/originals/41/3f/0a/413f0a716c2d8fe82d1062b7929d5d2c.png)
+
+Another close-up shot of the 16-Channel Servo Driver. Nifty little thing.
+
 ![Image of Driver](https://raw.githubusercontent.com/XiaoBaoBao719/IEEE-Project-2021/main/Pictures/IMG_20210528_014052153.jpg)
 
 We also need our means of controlling the servo motors directly. So to address that, I quickly wired four variable resistor potentiometers into the Arduino's analog input pins so we can read signals from the potentiometers. 
 
 ![Image of pots](https://raw.githubusercontent.com/XiaoBaoBao719/IEEE-Project-2021/main/Pictures/IMG_20210528_014251615.jpg)
+
+Some up-close shots of the connections between the potentiometer signal pins to the microcontroller:
+
 ![Image of pots to pins](https://raw.githubusercontent.com/XiaoBaoBao719/IEEE-Project-2021/main/Pictures/IMG_20210528_014258858.jpg)
+
+Since there are only two pins on the Arduino for GRN and 5V, we can just connect the potentiometer pins for power in parallel on the breadboard and then loop that back to the microcontroller's power pins.
+
 ![Image of breadboard](https://raw.githubusercontent.com/XiaoBaoBao719/IEEE-Project-2021/main/Pictures/IMG_20210528_014306499.jpg)
 
 # Electrical Assembly
