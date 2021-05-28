@@ -210,5 +210,5 @@ In the end...it sort of can dance and listen to user input! This was my first ev
 ![Image of dancing Otto](https://github.com/XiaoBaoBao719/IEEE-Project-2021/blob/main/Pictures/VID_20210528_015705891_2.gif)
 
 # Special Thanks
-I'd like to thank the UC Davis IEEE Chapter for their generous support and time in helping me every step of the way. Specifically, I'd like to acknowledge Varsha Senthil, Anelise Cho, and Devon Liu for their expertise and support. As someone who is still quite inexperienced and weak in electronics, your resources and advice put me in my paces towards making this little robot possible!
+I'd like to thank the UC Davis IEEE Chapter for their generous support and time in helping me every step of the way. Specifically, I'd like to acknowledge Varsha Senthil, Anelise Cho, and Devon Liu for their expertise and support. As someone who is still quite inexperienced and weak in electronics, your resources and advice put me in my paces towards making this little robot possible! Thank you!
 
