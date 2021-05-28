@@ -48,7 +48,8 @@ I'd say the trickiest part of designing and implementing any sort of robot is th
 
 Fine tuning Otto was a bigger hassle than I had originally realized. See, just telling a servo to move to a new position creates jerky (sometimes dangerous) and unsightly behavior that doesn't look good at all from the robot. In order to implement smoothing, I implemented a series of loops that check if new joint angles are desired from the potentiometer readings. The new desired positions are mapped and updated from the potentiometer signal (0-1024) to the servo PWM positions (0-255). We can then use a combination of delay() calls within our loops in order to actuate and move Otto's servos into the correct positions.
 
-`<
+```Arduino
+<
 void readPot(void) {
   //int curr;
   reading = analogRead(pot1);
@@ -145,4 +146,5 @@ void loop() {
   for(int n = 0; n < 4; n++){
     lastPos[n] = servoPos[n];
   }
-}>` 
+}
+``` 
