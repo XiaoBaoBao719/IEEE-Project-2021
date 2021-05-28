@@ -22,3 +22,11 @@ Some of these components were common hobbyist parts that I had lying around but 
 Here are some of the parts up close!
 
 ![Image of project](https://raw.githubusercontent.com/XiaoBaoBao719/IEEE-Project-2021/main/Pictures/IMG_20210528_013522839.jpg)
+
+The Arduino Uno is an ATmega32P open-source microcontroller that has 14 digital I/O pins, 5 analog pins, 2 interrupt pins, and a 16MHz resonator timer that allows for users to perform AVR interrupts. It's a versatile MCU that forms the "brains" of the robot by handling user input and passing along relevant signals for processing in the servo driver. 
+
+![Image of Arduino](https://raw.githubusercontent.com/XiaoBaoBao719/IEEE-Project-2021/main/Pictures/IMG_20210528_014017896.jpg)
+
+Next we have the Adafruit 16-Channel PWM Servo Driver. This component is probably the next most crucial element in the entire robot since without it, the servo motors would not be able to move properly. See, Servo motors are essentially small DC motors with a small integrated encoder built into the entire assembly. In other words, the complex circutry that has to keep track of the DC motor's position, velocity, and voltage is all built into the servo motor. All we need to provide to the servo motor is a signal. This signal is called the *Pulse Width Modulation* signal; and is a square wave. The width of the square wave is known as the *duty cycle* and by varying the duty cycle, we can change the PWM signal as well. 
+
+![Image of Driver](https://raw.githubusercontent.com/XiaoBaoBao719/IEEE-Project-2021/main/Pictures/IMG_20210528_014052153.jpg)
