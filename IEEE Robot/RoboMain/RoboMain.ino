@@ -23,7 +23,6 @@ int pot4 = A3;
 
 const int NUM_POTS = 4;
 
-
 //starting servo positions
 int RHIP_START_POS = 260;
 int RHIP_MAX = 300;
@@ -44,6 +43,32 @@ int LFOOT_MIN = 250;
 int currMap;
 int reading, num;
 int readings[NUM_POTS], servoPos[NUM_POTS], newPos[NUM_POTS], lastPos[NUM_POTS];
+
+void readPot(void) {
+  //int curr;
+  reading = analogRead(pot1);
+  readings[0] = min(reading, 100);
+  reading = analogRead(pot2);
+  readings[1] = min(reading, 100);
+  reading = analogRead(pot3);
+  readings[2] = min(reading, 100);
+  reading = analogRead(pot4);
+  readings[3] = min(reading, 100);
+
+  //curr = reading;
+  //return curr;
+}
+
+void mapServo(int pos[]) {
+
+  //int mappings[4];
+  servoPos[0] = map(pos[0], 0, 200, RHIP_MIN, RHIP_MAX);
+  servoPos[1] = map(pos[1], 0, 200, LHIP_MIN, LHIP_MAX);
+  servoPos[2] = map(pos[2], 0, 200, RFOOT_MIN, RFOOT_MAX);
+  servoPos[3] = map(pos[3], 0, 200, LFOOT_MIN, LFOOT_MAX);
+
+  //return mappings;
+}
 
 void setup() {
   // put your setup code here, to run once:
@@ -86,34 +111,6 @@ void setup() {
   
 }
 
-
-
-void readPot(void) {
-  //int curr;
-  reading = analogRead(pot1);
-  readings[0] = min(reading, 100);
-  reading = analogRead(pot2);
-  readings[1] = min(reading, 100);
-  reading = analogRead(pot3);
-  readings[2] = min(reading, 100);
-  reading = analogRead(pot4);
-  readings[3] = min(reading, 100);
-
-  //curr = reading;
-  //return curr;
-}
-
-void mapServo(int pos[]) {
-
-  //int mappings[4];
-  servoPos[0] = map(pos[0], 0, 200, RHIP_MIN, RHIP_MAX);
-  servoPos[1] = map(pos[1], 0, 200, LHIP_MIN, LHIP_MAX);
-  servoPos[2] = map(pos[2], 0, 200, RFOOT_MIN, RFOOT_MAX);
-  servoPos[3] = map(pos[3], 0, 200, LFOOT_MIN, LFOOT_MAX);
-
-  //return mappings;
-}
-
 void loop() {
   // put your main code here, to run repeatedly:
   //Serial.print("DRIVING");
@@ -139,13 +136,7 @@ void loop() {
       }
     }
   }
-  //driver.setPWM(0, 0, servoPos);
 
-  //  if (servoPos != newPos) {
-  //    Serial.print("POT POSITION: "); Serial.println(newPos);
-  //    Serial.print("SERVO POSITION: "); Serial.println(servoPos);
-  //
-  //  }
   for(int n = 0; n < 4; n++){
     lastPos[n] = servoPos[n];
   }
