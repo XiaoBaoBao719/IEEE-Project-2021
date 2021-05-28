@@ -7,9 +7,10 @@ Over the course of the COVID-19 pandemic, many individuals (myself included) fel
 # What is Otto?
 Otto is a small friendly social robot that was developed by Nestworks based largely on the designs and programs of BoB the Biped https://www.instructables.com/BoB-the-BiPed/. The design is entirely open-source and was therefore a good candidate for a personal project due to the wealth of documentation available. 
 
-![Image of assembly](https://raw.githubusercontent.com/XiaoBaoBao719/IEEE-Project-2021/main/Pictures/IMG_20210528_013724450.jpg)
+![Image of Otto](https://content.instructables.com/ORIG/FOF/WVU6/JN3HXMRV/FOFWVU6JN3HXMRV.jpg?auto=webp&frame=1&fit=bounds&md=7b16cb41988c6ae1c740bc964af5e166)
 
 # Building Otto
+![Image of assembly](https://raw.githubusercontent.com/XiaoBaoBao719/IEEE-Project-2021/main/Pictures/IMG_20210528_013724450.jpg)
 In order to construct my own version of Otto, I used the following supplies:
 * Arduino Uno
 * Adafruit 16-Channel PWM Servo Driver
@@ -204,9 +205,10 @@ void loop() {
 
 # Results
 
-![Image of Otto](https://content.instructables.com/ORIG/FOF/WVU6/JN3HXMRV/FOFWVU6JN3HXMRV.jpg?auto=webp&frame=1&fit=bounds&md=7b16cb41988c6ae1c740bc964af5e166)
-
 In the end...it sort of can dance and listen to user input! This was my first ever attempt at using servo motors and the Adafruit driver to attempt at making a bipedal walking robot, but so far it's been a very successful learning experience. There are definitely still many bugs (ahem features) that I'd like to address as well as a few more sensors that I'd like to add but so far it's been a very rewarding experience. I love robotics and putting together large complicated projects so let's see what the future of Otto brings.
 
 ![Image of dancing Otto](https://github.com/XiaoBaoBao719/IEEE-Project-2021/blob/main/Pictures/VID_20210528_015705891_2.gif)
+
+# Special Thanks
+I'd like to thank the UC Davis IEEE Chapter for their generous support and time in helping me every step of the way. Specifically, I'd like to acknowledge Varsha Senthil, Anelise Cho, and Devon Liu for their expertise and support. As someone who is still quite inexperienced and weak in electronics, your resources and advice put me in my paces towards making this little robot possible!
 
