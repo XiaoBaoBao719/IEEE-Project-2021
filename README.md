@@ -21,4 +21,4 @@ Some of these components were common hobbyist parts that I had lying around but 
 
 Here are some of the parts up close!
 
-![Image of project](https://photos.app.goo.gl/e1Cxy3kSBwfKCjay5)
+![Image of project](https://raw.githubusercontent.com/XiaoBaoBao719/IEEE-Project-2021/main/Pictures/IMG_20210528_013522839.jpg)
