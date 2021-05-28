@@ -18,3 +18,7 @@ In order to construct my own version of Otto, I used the following supplies:
 * 9V DC Female Header Connector
 
 Some of these components were common hobbyist parts that I had lying around but several of the key components, most notably the Adafruit PWM Driver, were generously provided by the UC Davis IEEE Chapter for usuage. 
+
+Here are some of the parts up close!
+
+![Image of project](https://photos.app.goo.gl/e1Cxy3kSBwfKCjay5)
