@@ -37,3 +37,9 @@ We also need our means of controlling the servo motors directly. So to address t
 ![Image of pots to pins](https://raw.githubusercontent.com/XiaoBaoBao719/IEEE-Project-2021/main/Pictures/IMG_20210528_014258858.jpg)
 ![Image of breadboard](https://raw.githubusercontent.com/XiaoBaoBao719/IEEE-Project-2021/main/Pictures/IMG_20210528_014306499.jpg)
 
+# Electrical Assembly
+Of course, we wouldn't be able to do anything meaningful if none of the electrical components were actually connected. The good news for us is that these off-the-shelf parts are so common and straightforward that wiring them together is a piece of cake. The main points of interest worth bearing in mind are in making sure that the 16-Channel Adafruit Servo driver is correctly connected to Analog Pins A5 and A4 on the microcontroller. Meanwhile, we can allocate analog pins A0 through A3 to our four potentiometers. It's important that we draw the discinction between analog and digital pins real quick. Digital pins are just meant to handle binary inputs and outputs. They are either ON or OFF. Meanwhile, since the variable potentiometers are giving us a range of values, we need the analog pins to handle many different types of numbers. 
+
+Here's a Fritzing diagram of our overall setup. 
+![Image of electrical diagram](https://raw.githubusercontent.com/XiaoBaoBao719/IEEE-Project-2021/main/Pictures/Fritzing_Diagram.png)
+
