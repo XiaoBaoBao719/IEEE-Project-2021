@@ -11,10 +11,10 @@ Otto is a small friendly social robot that was developed by Nestworks based larg
 
 ## Building Otto
 In order to construct my own version of Otto, I used the following supplies:
-*Arduino Uno
-*Adafruit 16-Channel PWM Servo Driver
-*4x 4k Ohm Variable Potentiometers
-*4x SG92R Tower Pro Servo Motors
-*9V DC Female Header Connector
+* Arduino Uno
+* Adafruit 16-Channel PWM Servo Driver
+* 4x 4k Ohm Variable Potentiometers
+* 4x SG92R Tower Pro Servo Motors
+* 9V DC Female Header Connector
 
 Some of these components were common hobbyist parts that I had lying around but several of the key components, most notably the Adafruit PWM Driver, were generously provided by the UC Davis IEEE Chapter for usuage. 
