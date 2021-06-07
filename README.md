@@ -7,8 +7,6 @@ Over the course of the COVID-19 pandemic, many individuals (myself included) fel
 # What is Otto?
 Otto is a small friendly social robot that was developed by Nestworks based largely on the designs and programs of BoB the Biped https://www.instructables.com/BoB-the-BiPed/. The design is entirely open-source and was therefore a good candidate for a personal project due to the wealth of documentation available. 
 
-![Image of Otto](https://content.instructables.com/ORIG/FOF/WVU6/JN3HXMRV/FOFWVU6JN3HXMRV.jpg?auto=webp&frame=1&fit=bounds&md=7b16cb41988c6ae1c740bc964af5e166)
-
 # Building Otto
 ![Image of assembly](https://raw.githubusercontent.com/XiaoBaoBao719/IEEE-Project-2021/main/Pictures/IMG_20210528_013724450.jpg)
 In order to construct my own version of Otto, I used the following supplies:
